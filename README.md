@@ -2,10 +2,11 @@
 venta videojuegos por todo el mundo
 # 🎮 Ice Store - Análisis de éxito de videojuegos
 
-## 🎯 Descripción del proyecto
+# 🎮 Análisis de ventas de videojuegos — Ice
 
-**Ice** es una tienda online global dedicada a la venta de videojuegos.
-La empresa cuenta con datos históricos de ventas, reseñas de usuarios y expertos, géneros, plataformas y clasificaciones de contenido.
+## 📊 Descripción del proyecto
+
+Ice es una tienda online global dedicada a la venta de videojuegos. La empresa cuenta con datos históricos de ventas, reseñas de usuarios y expertos, géneros, plataformas y clasificaciones de contenido.
 
 El objetivo de este proyecto es identificar los factores que determinan el éxito de un videojuego, con el fin de apoyar la toma de decisiones estratégicas y optimizar campañas publicitarias.
 
@@ -39,33 +40,46 @@ El enfoque del proyecto no es únicamente predictivo, sino también formativo, p
 
 El dataset incluye información relevante sobre videojuegos, tales como:
 
-* Ventas por región
+* Ventas por región (NA, EU, JP, Other)
 * Calificaciones de usuarios y críticos
 * Plataforma de lanzamiento
 * Género
 * Año de lanzamiento
+* Clasificación ESRB
 
-### 🔞 Clasificación ESRB
-
-El dataset contiene la columna `rating`, que representa la clasificación otorgada por el **Entertainment Software Rating Board (ESRB)**.
-
-Esta clasificación evalúa el contenido del videojuego y asigna categorías de edad como:
-
-* Adolescente (Teen)
-* Adulto (Mature)
-
-Esta variable es clave para entender el público objetivo y su posible impacto en las ventas.
+La columna `rating` representa la clasificación otorgada por el Entertainment Software Rating Board (ESRB), que evalúa el contenido del videojuego y asigna categorías de edad como Adolescente (Teen) o Adulto (Mature).
 
 ---
 
-## 🚀 Enfoque del análisis
+## 🔍 Enfoque del análisis
 
-1. Limpieza y preparación de datos
-2. Análisis exploratorio (EDA)
-3. Identificación de tendencias por año, género y plataforma
-4. Evaluación del impacto de reseñas en ventas
-5. Análisis de correlaciones entre variables
-6. Identificación de factores clave de éxito
+* Limpieza y preparación de datos
+* Análisis exploratorio (EDA)
+* Identificación de tendencias por año, género y plataforma
+* Evaluación del impacto de reseñas en ventas
+* Análisis de correlaciones
+* Pruebas de hipótesis estadísticas
+
+---
+
+## 📈 Principales hallazgos
+
+* Las plataformas más recientes dominan el mercado, mientras que las antiguas disminuyen en relevancia
+* Los géneros como Acción y Deportes concentran mayores ventas
+* Existe una correlación positiva entre reseñas de críticos y ventas
+* Las preferencias varían significativamente por región
+* No todos los factores de éxito dependen únicamente de las calificaciones
+
+---
+
+## 🧪 Pruebas estadísticas
+
+Se realizaron pruebas de hipótesis utilizando t-test para:
+
+* Comparar calificaciones entre plataformas (Xbox One vs PC)
+* Evaluar diferencias entre géneros (Acción vs Deportes)
+
+Esto permitió validar si las diferencias observadas son estadísticamente significativas.
 
 ---
 
@@ -77,6 +91,16 @@ Este análisis permite:
 * Optimizar campañas publicitarias
 * Entender tendencias del mercado gaming
 * Apoyar decisiones estratégicas basadas en datos
+
+---
+
+## 🛠 Tecnologías utilizadas
+
+* Python
+* Pandas
+* Matplotlib
+* Seaborn
+* SciPy
 
 ---
 
