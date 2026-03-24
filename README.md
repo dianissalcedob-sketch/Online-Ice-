@@ -2,8 +2,6 @@
 venta videojuegos por todo el mundo
 # 🎮 Ice Store - Análisis de éxito de videojuegos
 
-# 🎮 Análisis de ventas de videojuegos — Ice
-
 ## 📊 Descripción del proyecto
 
 Ice es una tienda online global dedicada a la venta de videojuegos. La empresa cuenta con datos históricos de ventas, reseñas de usuarios y expertos, géneros, plataformas y clasificaciones de contenido.
